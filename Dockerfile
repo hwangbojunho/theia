@@ -2,6 +2,7 @@ FROM centos:7
 # version 20.0
 
 # 0) install required packages using yum
+
 RUN yum update -y && yum install -y \
   make \
   gcc \
